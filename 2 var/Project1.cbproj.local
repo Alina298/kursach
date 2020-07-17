@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2020.07.16 19:11:21.730,=C:\Users\Алина\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2020.07.16 19:11:22.081,=C:\Users\Алина\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2020.07.16 19:12:04.502,=C:\Users\Алина\Documents\Embarcadero\Studio\Projects\File1.h</Transaction>
+    <Transaction>2020.07.16 19:15:01.923,C:\Users\Алина\Documents\Embarcadero\Studio\Projects\Stack.h=C:\Users\Алина\Documents\Embarcadero\Studio\Projects\File1.h</Transaction>
+    <Transaction>2020.07.16 19:15:44.973,C:\Users\Алина\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\Алина\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2020.07.16 19:16:46.789,C:\Users\Алина\Documents\Embarcadero\Studio\Projects\Stack_Ary.h=C:\Users\Алина\Documents\Embarcadero\Studio\Projects\Stack.h</Transaction>
+    <Transaction>2020.07.16 19:17:05.303,=C:\Users\Алина\Documents\Embarcadero\Studio\Projects\File1.h</Transaction>
+    <Transaction>2020.07.16 19:17:33.028,C:\Users\Алина\Documents\Embarcadero\Studio\Projects\Stack_Lst.h=C:\Users\Алина\Documents\Embarcadero\Studio\Projects\File1.h</Transaction>
+    <Transaction>2020.07.16 20:25:18.852,C:\moyakursovaya\Project1.cbproj=C:\Users\Алина\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2020.07.16 20:25:35.028,C:\moyakursovaya\Project1.cbproj=C:\moyakursovaya\Project1.cbproj</Transaction>
+    <Transaction>2020.07.16 20:25:54.835,C:\moyakursovaya\Unit1.h=C:\Users\Алина\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2020.07.16 20:25:54.835,C:\moyakursovaya\Unit1.cpp=C:\Users\Алина\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2020.07.16 20:25:54.835,C:\moyakursovaya\Unit1.dfm=C:\Users\Алина\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2020.07.16 20:26:19.218,C:\moyakursovaya\Stack_Lst.h=C:\Users\Алина\Documents\Embarcadero\Studio\Projects\Stack_Lst.h</Transaction>
+    <Transaction>2020.07.16 20:56:36.285,=C:\moyakursovaya\File1.h</Transaction>
+    <Transaction>2020.07.16 21:08:34.324,C:\moyakursovaya\Queue_Lst.h=C:\moyakursovaya\File1.h</Transaction>
+  </Transactions>
+</BorlandProject>
