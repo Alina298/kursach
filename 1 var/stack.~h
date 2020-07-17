@@ -1,0 +1,81 @@
+#ifndef STACK_H
+#define STACK_H
+
+class Stack
+{
+ struct listel
+ {
+  int value;
+  listel* next;
+ };
+ listel* top;
+ int count;
+ public:
+ Stack();
+ ~Stack();
+ void push(int value); // Добавление в стэк
+ int pop(); // Извлечение из стэка
+ int is_Empty(); // проверка пуст ли список
+ void clear();
+};
+Stack::Stack()
+{
+ top=0;
+ count=0;
+}
+Stack::~Stack()
+{
+ clear();
+ /*
+ listel *cur=NULL;
+ listel *temp=top;
+ while(temp)
+ {
+  cur=temp;
+  temp=temp->next;
+  delete cur;
+ } */
+}
+void Stack::push(int value)
+{
+ listel* nel=new listel;
+ nel->value=value;
+ if(!top)
+ {
+  top=nel;
+  top->next=0;
+ }
+ else
+ {
+  nel->next=top;
+  top=nel;
+ }
+}
+int Stack::pop()
+{
+ listel*cur=top;
+ int val;
+ if (!top) return INT_MIN;
+ val=cur->value;
+ top=top->next;
+ delete cur;
+ return val;
+}
+int Stack::is_Empty()
+{
+ if (top) return 1;
+ else return 0;
+}
+void Stack::clear()
+{
+ listel* cur=top;
+ while(cur)
+ {
+  top=top->next;
+  delete cur;
+  cur=top;
+ }
+}
+
+
+#endif
